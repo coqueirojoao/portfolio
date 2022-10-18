@@ -2,6 +2,7 @@ import React from 'react';
 import projects from '../data/projects';
 import Header from '../components/Header';
 import { motion } from 'framer-motion';
+import Footer from '../components/Footer';
 
 export default function Projects() {
   return (
@@ -54,6 +55,7 @@ export default function Projects() {
             ))}
           </div>
         </main>
+        <Footer />
       </motion.div>
     </div>
   );
