@@ -17,7 +17,21 @@ export default function Projects() {
             <h1 className='text-6xl text-gray-200'>Projetos</h1>
             <hr className='mt-8 w-1/2 border-purple-300/20' />
           </div>
-          <div className='flex flex-col xl:flex-row justify-center items-center xl:items-stretch flex-wrap w-full my-28 gap-7 text-center'>
+          <div className='flex justify-center mt-8 text-center text-2xl text-gray-200'>
+            <h3 className='xl:w-1/2'>
+              Nessa página estarão listados projetos que desenvolvi, tanto em
+              processos seletivos, quanto no curso da{' '}
+              <a
+                href='https://www.betrybe.com/'
+                target='blank'
+                className='text-green-800 hover:text-green-900 ease-in-out duration-1000'
+              >
+                Trybe
+              </a>
+              , ou outros de cunho pessoal!
+            </h3>
+          </div>
+          <div className='flex flex-col xl:flex-row justify-center items-center xl:items-stretch flex-wrap w-full my-16 gap-7 text-center'>
             {projects.map((project) => (
               <div className='xl:w-1/3 mx-2 shadow-lg border-t border-blue-600/30 shadow-black/50 p-3 rounded hover:w-1/2 ease-in-out duration-1000'>
                 <a href={project.address} target='blank'>
