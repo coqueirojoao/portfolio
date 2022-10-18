@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className='flex flex-col my-24 items-center'>
-        <div className='w-1/2'>
+      <div className='flex flex-col my-16 items-center'>
+        <div className='xl:w-1/2'>
           <img
             src={homeImg}
             alt='home-img'
@@ -32,11 +32,11 @@ export default function Home() {
               500,
             ]}
             //  Continuing previous Text
-            className='text-2xl xl:text-5xl text-gray-200 shadow-text'
+            className='text-3xl xl:text-5xl text-gray-200 shadow-text'
             wrapper='div'
             repeat={Infinity}
           />
-          <p className='text-xl xl:text-2xl py-10 text-gray-500 shadow-text leading-normal'>
+          <p className='text-lg xl:text-2xl py-10 text-gray-500 shadow-text leading-normal'>
             Aqui vocês vão encontrar informações sobre mim, sobre os meus
             projetos e formas de contato. <br />
             Espero que gostem da visita! :D
