@@ -8,6 +8,10 @@ const skills = [
     logo: 'https://cdn.worldvectorlogo.com/logos/redux.svg',
   },
   {
+    title: 'JavaScript',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png'
+  },
+  {
     title: 'Bootstrap',
     logo: 'https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png',
   },

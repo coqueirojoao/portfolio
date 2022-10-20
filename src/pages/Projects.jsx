@@ -34,7 +34,7 @@ export default function Projects() {
           </div>
           <div className='flex flex-col xl:flex-row justify-center items-center xl:items-stretch flex-wrap w-full my-16 gap-7 text-center'>
             {projects.map((project) => (
-              <div className='xl:w-1/3 mx-2 shadow-lg border-t border-blue-600/30 shadow-black/50 p-3 rounded hover:w-1/2 ease-in-out duration-1000'>
+              <div className='xl:w-1/3 mx-2 shadow-lg border-t border-blue-600/30 shadow-black/50 p-3 rounded xl:hover:w-1/2 ease-in-out duration-1000'>
                 <a href={project.address} target='blank'>
                   <img
                     src={project.image}

@@ -66,7 +66,7 @@ export default function About() {
           </div>
           <div className='flex mx-auto gap-5 xl:w-1/2 justify-center flex-wrap mt-24'>
             {skills.map((skill) => (
-              <div className='w-28 xl:w-64 p-5 shadow-lg shadow-black rounded-xl bg-slate-700 hover:w-72 ease-in-out duration-1000'>
+              <div className='w-28 xl:w-64 p-5 shadow-lg shadow-black rounded-xl bg-slate-700 xl:hover:w-72 ease-in-out duration-1000'>
                 <img src={skill.logo} alt={skill.title} />
               </div>
             ))}
