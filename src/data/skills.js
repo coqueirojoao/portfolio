@@ -12,6 +12,10 @@ const skills = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png'
   },
   {
+    title: 'TypeScript',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
+  },
+  {
     title: 'Bootstrap',
     logo: 'https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png',
   },
