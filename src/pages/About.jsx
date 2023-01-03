@@ -22,7 +22,7 @@ export default function About() {
           <div className='mx-3 xl:mx-auto mt-24 border xl:w-3/4 bg-gray-300 rounded shadow-lg shadow-black'>
             <div className='flex flex-col xl:flex-row justify-evenly items-center py-3'>
               <img
-                src='https://media-exp1.licdn.com/dms/image/D4D03AQFXeM5H6y9fgA/profile-displayphoto-shrink_800_800/0/1665074476925?e=1671667200&v=beta&t=lyQ8ETBZyDqvl_RzWzOe_44ht6-edBo52c8iP4jU6rE'
+                src='https://imageup.me/images/175814f1-214d-4e0f-a1e6-5e6c1c0a3c73.jpeg'
                 alt='profile-img'
                 className='w-72 xl:w-96 rounded-full shadow-xl shadow-black/70'
               />
